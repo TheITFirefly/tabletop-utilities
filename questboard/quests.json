@@ -1,0 +1,53 @@
+[
+  {
+    "title": "The Lost Temple",
+    "level": 1,
+    "status": "Complete",
+    "issuer": "Priestess of the Moon Goddess",
+    "description": "Rumors have been circulating about a long-abandoned temple deep in the heart of the forest. Brave adventurers, seek out this ancient ruin and uncover its secrets.",
+    "reward": "A magical amulet granting +10% to spellcasting ability"
+  },
+  {
+    "title": "The Lost Temple",
+    "level": 1,
+    "status": "Complete",
+    "issuer": "Priestess of the Moon Goddess",
+    "description": "Rumors have been circulating about a long-abandoned temple deep in the heart of the forest. Brave adventurers, seek out this ancient ruin and uncover its secrets.",
+    "reward": "A magical amulet granting +10% to spellcasting ability",
+    "overrideVisibility": "never"
+  },
+  {
+    "title": "The Cursed Mines",
+    "level": 3,
+    "status": "Incomplete",
+    "issuer": "Grimbold Ironfist, Dwarf Lord",
+    "description": "The mines have been plagued by a series of mysterious accidents. Investigate the source of these troubles and put an end to them.",
+    "reward": "A suit of enchanted plate armor",
+    "overrideVisibility": "always"
+
+  },
+  {
+    "title": "The Secret Garden",
+    "level": 3,
+    "status": "Incomplete",
+    "issuer": "Lady Sophia, Gardener Extraordinaire",
+    "description": "A beautiful garden hidden away in the city's most affluent neighborhood. Rumors say that a rare and exotic flower blooms within its walls.",
+    "reward": "A vial of enchanted bloom dust"
+  },
+  {
+    "title": "The Haunted Mansion",
+    "level": 4,
+    "status": "Complete",
+    "issuer": "Malyster, Ghost Hunter",
+    "description": "A foreboding mansion on the outskirts of town has been plagued by ghostly apparitions. Put an end to the haunting and claim your reward.",
+    "reward": "A magical staff granting +20% to intelligence"
+  },
+  {
+    "title": "The Missing Heirloom",
+    "level": 5,
+    "status": "Incomplete",
+    "issuer": "Lady Victoria, Matron of the Family",
+    "description": "A priceless family heirloom has gone missing. Find it and return it to its rightful owner.",
+    "reward": "A golden locket granting +15% to charisma"
+  }
+]
