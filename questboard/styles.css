@@ -143,14 +143,50 @@ h1 {
   width:fit-content;
 }
 
+/* --- Base Styling (Works for all browsers) --- */
 #party-level {
-  padding: 5px;
+  padding: 6px 12px;
   font-size: 1em;
   color: #fff2c2;
-  background: transparent;
+  /* Semi-transparent wood tint to blend with background */
+  background-color: rgba(139, 94, 60, 0.2); 
   border: 1px solid #8b5e3c;
-  border-radius: 10px;
-  width: auto;
+  border-radius: 8px;
+  font-family: 'Georgia', serif;
+  cursor: pointer;
+  
+  /* Remove default browser arrow */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  
+  /* Custom SVG Arrow (White/Gold) */
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23fff2c2'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
+  
+  padding-right: 30px;
+  transition: all 0.2s ease;
+}
+
+/* Hover and Focus states */
+#party-level:hover {
+  background-color: rgba(139, 94, 60, 0.4);
+  border-color: #fff2c2;
+}
+
+#party-level:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 242, 194, 0.3);
+  border-color: #fff2c2;
+}
+
+#party-level option {
+  background-color: #402203;
+  color: #fff2c2;
+  font-family: 'Georgia', serif;
+  padding: 8px;
 }
 
 .browse-button {
